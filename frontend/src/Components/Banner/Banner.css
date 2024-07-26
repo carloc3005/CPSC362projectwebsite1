@@ -1,0 +1,64 @@
+.banner {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .banner-img-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 400px;
+  }
+  
+  .banner-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .banner-subtitle {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0;
+  }
+  
+  .banner-button-link {
+    text-decoration: none;
+  }
+  
+  .banner-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: black;
+  }
+  
+  .banner-button:hover {
+    background-color: #45a049;
+  }
+  

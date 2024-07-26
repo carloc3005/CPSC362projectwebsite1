@@ -1,0 +1,126 @@
+.product-display {
+    display: flex;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .product-display-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-display-img {
+    max-width: 100%;
+  }
+  
+  .product-display-main-img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+  }
+  
+  .product-display-right {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .product-header h1 {
+    font-size: 28px;
+    color: white;
+  }
+  
+  .close-button {
+    display: inline-block;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .product-price {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  .product-description h2,
+  .product-wear h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .product-description p {
+    font-size: 16px;
+    color: white;
+  }
+  
+  .product-wear {
+    margin-top: 20px;
+  }
+  
+  .wear-options {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .wear-options button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .wear-options button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .add-to-cart {
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #45a049;
+  }
+  
+  @media (max-width: 768px) {
+    .product-display {
+      flex-direction: column;
+    }
+  
+    .product-display-left,
+    .product-display-right {
+      width: 100%;
+    }
+  
+    .product-display-main-img {
+      margin: 0 auto;
+    }
+  }
+  

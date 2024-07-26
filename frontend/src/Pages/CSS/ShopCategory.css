@@ -1,0 +1,15 @@
+.shopcategory-banner{
+    display: block;
+    margin: auto 400px;
+}
+.shopcategory-indexSort{
+    margin-top: 0px;
+    color: white;
+}
+.shopcategory-product{
+    margin: 100px 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 80px;
+    color: white;
+}

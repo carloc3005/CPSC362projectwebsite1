@@ -1,0 +1,79 @@
+.trending-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 200px; /* Added bottom margin to create space */
+}
+
+.pagination-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pagination button.active {
+    font-weight: bold;
+    color: red;
+}
+
+.pagination button[disabled] {
+    color: grey;
+    cursor: not-allowed;
+}
+
+.trending > h1 {
+    text-align: center;
+    color: white;
+}
+
+.pagination {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.pagination button {
+    font-size: 14px;
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #5f6368;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    border-color: #c6c6c6;
+    background-color: #f8f9fa;
+    text-decoration: none;
+}
+
+.pagination button.active {
+    border-color: #4285f4;
+    color: #4285f4;
+    font-weight: bold;
+}
+
+.pagination button[disabled] {
+    color: #ddd;
+    cursor: not-allowed;
+    background-color: #fff;
+}
+
+.pagination button[disabled]:hover {
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+.knife_price {
+    text-align: center;
+}
+

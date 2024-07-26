@@ -1,0 +1,23 @@
+.knife{
+    padding: 20px;
+    background-color: #333;
+    color:white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.knife img{
+    width: 100%;
+    height: auto;
+    
+}
+.knife p{
+    margin-top: 5px;
+    font-size: 1em;
+    text-align: center;
+}
+.knife_price{
+    display:block;
+    color:white;
+    font-size: 18px;
+    margin-left: -10px;
+}

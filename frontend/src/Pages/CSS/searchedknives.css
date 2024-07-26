@@ -1,0 +1,38 @@
+/* searchedknives.css */
+.searched-knives {
+    padding: 20px;
+    color: white;
+}
+
+.searched-knives h2 {
+    margin-bottom: 20px;
+}
+
+.knife-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.knife-card {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.knife-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.knife-card h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.knife-card p {
+    margin-top: 5px;
+    font-size: 1em;
+}

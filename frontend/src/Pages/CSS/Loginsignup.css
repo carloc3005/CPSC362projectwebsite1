@@ -1,0 +1,64 @@
+.login-box {
+        width: 285px;
+        padding: 40px;
+        position: relative;
+        background: #edf2f4;
+        text-align: center;
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin-left: 600px;
+        margin-top: 125px;
+}
+    
+    .login-box h2 {
+        margin: 0 0 20px;
+        padding: 0;
+        color: #333;
+        font-size: 22px;
+    }
+    
+    .textbox {
+        position: relative;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+    
+    .textbox input {
+        width: 90%;
+        padding: 10px;
+        background: white;
+        border: none;
+        outline: none;
+        font-size: 16px;
+    }
+    
+    .remember-me {
+        margin-bottom: 20px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    
+    .remember-me input {
+        margin-right: 10px;
+    }
+    
+    .btn {
+        width: 100%;
+        background: #333;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        color: white;
+        font-size: 16px;
+    }
+    
+    .signuplink {
+        position: relative;
+        color: blue;
+        text-decoration: none;
+        font-size: 14px;
+        margin-left: 825px;
+        margin-top: -115px;
+    }
